@@ -1,0 +1,28 @@
+{
+  "name": "lab-19-logger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "logger.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwilkin-401-advanced-javascript/lab-19-logger.git"
+  },
+  "author": "Matt Wilkin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mwilkin-401-advanced-javascript/lab-19-logger/issues"
+  },
+  "homepage": "https://github.com/mwilkin-401-advanced-javascript/lab-19-logger#readme",
+  "dependencies": {
+    "@nmq/q": "^1.0.3",
+    "dotenv": "^8.0.0",
+    "eslint": "^5.16.0",
+    "jest": "^24.8.0"
+  }
+}
