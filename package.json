@@ -1,0 +1,34 @@
+{
+  "name": "lab-19-logger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "logger.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "lint": "eslint --fix \"**/*.js\"",
+    "test": "jest --verbose --coverage",
+    "test-watch": "jest --watchAll --verbose --coverage",
+    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json .",
+    "push-check": "npm test && npm run lint",
+    "build-docs": "jsdoc -c ./docs/config/jsdoc.config.json . && open ./docs/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwilkin-401-advanced-javascript/lab-19-logger.git"
+  },
+  "author": "Matt Wilkin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mwilkin-401-advanced-javascript/lab-19-logger/issues"
+  },
+  "homepage": "https://github.com/mwilkin-401-advanced-javascript/lab-19-logger#readme",
+  "dependencies": {
+    "@nmq/q": "^1.0.3",
+    "dotenv": "^8.0.0",
+    "eslint": "^5.16.0",
+    "jest": "^24.8.0"
+  }
+}
